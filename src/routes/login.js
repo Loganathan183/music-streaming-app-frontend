@@ -1,4 +1,4 @@
-import { BsSpotify } from "react-icons/Bs";
+import { BsSpotify } from "react-icons/bs";
 import Textinput from '../components/textinput';
 
 
