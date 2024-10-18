@@ -18,7 +18,7 @@ const LoggedInContainer = ({ children, Curactivescreen, }) => {
 
     //eslint-disable-next-line
     const { currentsong,
-        setcurrentsong,
+       
         ispaused,
         setispaused,
         soundplayed,
