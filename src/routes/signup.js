@@ -144,7 +144,7 @@ const SignupComponent = () => {
                 </p>
 
                 <div className="d-flex justify-content-center">
-                    <Link to="/login" className="btn btn-outline-primary rounded-pill m-3">
+                    <Link to="/" className="btn btn-outline-primary rounded-pill m-3">
                         Login for Spotify
                     </Link>
                 </div>

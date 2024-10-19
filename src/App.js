@@ -37,14 +37,14 @@ function App() {
           }}>
 
             <Routes>
-              <Route path="/" element={<div>hello</div>} />
+              
               <Route path="/home" element={<LoggedInHomecomponent />} />
 
               <Route path="/uploadsong" element={<UploadSong />} />
               <Route path="/mymusic" element={<MyMusic />} />
               <Route path="/search" element={<Searchpage />} />
               <Route path="/library" element={<Library/>}/>
-              <Route path="/login" element={<Logincomponent />} />
+              <Route path="/" element={<Logincomponent />} />
               <Route path="/signup" element={<Signupcomponent />} />
             </Routes>
           </songcontext.Provider>
@@ -53,7 +53,7 @@ function App() {
           //loggoutroutes
           <Routes>
             <Route path="/home" element={<Homecomponent />} />
-            <Route path="/login" element={<Logincomponent />} />
+            <Route path="/" element={<Logincomponent />} />
             <Route path="/signup" element={<Signupcomponent />} />
 
 
