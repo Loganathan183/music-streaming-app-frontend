@@ -1,1 +1,1 @@
-export const backendurl="http://localhost:8050";
+export const backendurl="https://music-streaming-app-backend.onrender.com/ ";
